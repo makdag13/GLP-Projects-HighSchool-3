@@ -132,6 +132,7 @@ nav {
         font-size: 1.3rem;
     }
 
+
 }
 
 /* ----------------------contact form------------------ */
@@ -251,17 +252,9 @@ p {
 }
 
 @media (max-width: 750px) {
-    .container {
+    .contact-content {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
         text-align: center;
-        padding: 10px;
-        grid-template-areas:
-            "a"
-            "b"
-            "c"
-            "d"
-            "e";
-
     }
 }
