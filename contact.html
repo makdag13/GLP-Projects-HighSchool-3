@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- Silverbrook High School
+    </title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:wght@400;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- ------------------------------header----------------------- -->
+    <section class="header">
+        <nav>
+
+            <a href="index.html"><img src="img/index/logo-1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bxr  bx-x' id="close-icon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Conntact</a></li>
+                </ul>
+            </div>
+            <i class='bxr  bx-menu' id="menu-icon" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="contact">
+        <h1>Reach Out. We’re Just a Message Away ! <i class="fa-regular fa-message"></i> </h1>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form>
+                    <div class="row">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="name"
+                            placeholder="Enter your full name">
+                    </div>
+                    <div class="row">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="row">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" name="subject" class="form-control" id="subject"
+                            placeholder="Message subject">
+                    </div>
+                    <div class="row">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea name="message" class="form-control" id="message" rows="5"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" id="AlertBtn" class="submit-btn">Send
+                        Message</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.122836666961!2d21.058391576043984!3d52.18663987197561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd0ebc106f6d%3A0x20c4b93aa50b9120!2sKonstanci%C5%84ska%205%2C%2002-942%20Warszawa!5e0!3m2!1sen!2spl!4v1755705404022!5m2!1sen!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer">
+        <p>&copy; 2025 Designed and developed by GLP Software.. All rights reserved.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/8d2e41c33b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
